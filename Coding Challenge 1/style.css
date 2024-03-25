@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  width: 825px;
+  margin: 50px auto;
+  border: 4px solid #000;
+  line-height: 1.4;
+  position: relative;
+}
+
+.product-title {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 15px;
+  grid-column: 1 / -1;
+}
+
+.product {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+
+.image {
+  /* flex: 1; */
+}
+
+/* SHIPPING */
+.product-info {
+  /* margin-top: 20px; */
+  /* flex: 1; */
+  align-self: center;
+}
+
+.price-shipping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.free-shipping {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  color: #777;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.more-info {
+  padding-top: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: #000000;
+}
+
+.more-info:link:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/* DETAILS */
+.product-details {
+  /* margin-left: 20px; */
+  /* flex: 1; */
+  /* margin-top: 20px; */
+  align-self: center;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+/* Cart button */
+.add-cart {
+  text-transform: uppercase;
+  border-top: 4px solid #000;
+  border-color: #000000;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  grid-column: 1 / -1;
+}
+
+.add-cart:hover {
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.container::before {
+  content: "SALE";
+  background-color: #ff0000;
+  color: #ffffff;
+  border: solid #000 1px;
+  position: absolute;
+  top: -14px;
+  left: -35px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.colours {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.colour {
+  margin-top: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.black {
+  background-color: #000;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.green {
+  background-color: #008000;
+}
+
+.brown {
+  background-color: #a52a2a;
+}
