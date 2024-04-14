@@ -1,0 +1,42 @@
+1. Define
+ - Who the website for?
+ - What is the wabsite for?
+  + Define business goal
+  + Define user goal
+ - Define a target audience
+  + Gender, age, wealth, hobbies
+2. Plan
+ - Plan and gather content of the webisite
+  + copy, image etc.
+ - For bigger websites, plan the site map
+ - Plan sections each of the pages should have
+ - Define the website personality
+3. Sketch
+ - What components are needed?
+ - Get ideas out of your head
+  + Pen and paper
+  + Iterative process
+  + Don't make it perfect
+4. Design and build
+ - Design and build the website with HTML and CSS
+ - Choose and apply visual styles using the components and layout from step 3
+ - Base it on a website personality
+ - Use the client's branding
+5. Test and Optimise
+ - Make sure is works well in all major browsers
+ - Test on actual mobile devices
+ - Optimise all images
+  + Correct dimensions
+  + Compress them
+  + Fix accessible problems (e.g. colour contrast issues)
+  + Perform Lighthouse performance
+  + Search engine optimisation
+6. Launch
+ - Upload to a hosting platform
+ - Buy a domain name
+  + Memorable and easy to write
+7. Maintain and update
+ - Keep the content updated over time
+ - Install analytics (Google analytics or Fathom)
+  + May inform future development
+ - A blog that is updated regularly

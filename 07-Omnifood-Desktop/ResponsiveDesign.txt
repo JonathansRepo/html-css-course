@@ -1,0 +1,36 @@
+Adjust the web page to any possible screen size
+
+Useable on all devices
+
+Set of best practices:
+
+1. Fluid layouts
+  - allows webapge to adapt to the current viewports
+  - Use % (or vh/vw) instead of px
+  - use max-width instead of width
+  - Flexbox and CSS-Grid are fluid by default
+
+2. Responsive Units
+  - Use rem instead of px
+  - scale the entire page down automatically
+  - TIP: set 1 rem = 10px for easy calculation
+
+3. Flexible Images
+  - Images do not scale automatically
+  - Always use % for image dimensions, together with max-width property
+
+4. Media Queries
+  - Bring responsive sites to life
+  - To change CSS styles on certain viewport widths (called breakpoints)
+
+
+Desktop First vs Mobile First
+
+Desktop First:
+- Start writing CSS for the desktop: large screen
+- Then, media queries shrink the design for smaller screens
+
+Mobile First:
+- Start writing CSS for mobile devices: small screens 
+- Media queries expand the design
+- Forces us to reduce websites to the absolute essentials
