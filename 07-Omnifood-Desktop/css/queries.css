@@ -114,6 +114,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .nav-open .main-nav {
@@ -132,7 +133,8 @@
   }
 
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2rem);
     position: absolute;
     top: 0;
     left: 0;
